@@ -103,7 +103,7 @@ body{
 }
 
 .introduction {
-    line-height: 32px;
+    line-height: 36px;
     transition: ease-in-out 0.2s;
     background-color: #fdf8f8;
     border: #303841 3px solid;
