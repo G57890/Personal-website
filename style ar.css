@@ -103,6 +103,7 @@ body{
 }
 
 .introduction {
+    line-height: 32px;
     transition: ease-in-out 0.2s;
     background-color: #fdf8f8;
     border: #303841 3px solid;
@@ -209,6 +210,26 @@ h1{
     .field-pictures-div{
         margin-left: 5%;
     }
+
+
+        .introduction:hover {
+            border-top: #FFF200 20px solid;
+            border-right: #FFF200 30px solid;
+            border-bottom: #acd5f5f1 30px solid;
+            border-left: #acd5f5f1 15px solid;
+            width: 1500px;
+        }
+    
+        .name:hover {
+            background-color: #fdf8f8;
+            border-top: #fff200 12px solid;
+            border-right: #fff200 15px solid;
+            border-bottom: #acd5f5f1 15px solid;
+            border-left: #acd5f5f1 11px solid;
+        }
+
+    
+    
 }
 
 @media (max-width: 660px) {
