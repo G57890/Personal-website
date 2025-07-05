@@ -134,23 +134,6 @@ h3 {
     font-family: sans-serif;
 }
 
-button {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    background-color: rgb(231, 231, 231);
-    border-top: solid 3px white;
-    border-left: solid 3px white;
-    transition: 0.2s ease-in-out;
-    animation-delay: 0.3s;
-}
-
-button:active {
-    border-right: solid 3px white;
-    border-bottom: solid 3px white;
-    border-top: solid 3px #303841;
-    border-left: solid 3px #303841;
-}
-
 h1 {
     color: #303841;
     -webkit-text-stroke: #303841 0.5px;
