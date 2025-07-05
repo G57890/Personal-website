@@ -274,3 +274,18 @@ h1 {
 
 }
 
+/* Force light theme regardless of user's dark mode */
+@media (prefers-color-scheme: dark) {
+
+    html,
+    body {
+        background-color: #F5F5F5 !important;
+        color: #303841 !important;
+    }
+
+    * {
+        background-color: #F5F5F5 !important;
+        color: #303841 !important;
+    }
+}
+
