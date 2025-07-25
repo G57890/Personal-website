@@ -13,7 +13,7 @@ body{
     padding: 5px 5px;
     gap: 8px;
     flex-wrap: wrap;
-    font-size: 1.125rem;
+    font-size: 20px;
     margin: auto;
 }
 
@@ -53,7 +53,7 @@ body{
     transition: ease-in-out 0.4s;
     height: fit-content;
     background-color: #fdf8f8;
-    font-size: 20px;
+    font-size: 21px;
     box-shadow: #303841 5px 5px 5px;
     border-radius: 10px;
     letter-spacing: 1px;
