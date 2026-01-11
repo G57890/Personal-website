@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="ChatGPT Image Jun 28, 2025, 06_12_44 PM (1).png"
-      type="x-icon"
+      href="images/ChatGPT Image Jun 28, 2025, 06_12_44 PM (1).png"
+      type="image/x-icon"
     />
     <title>Personal website</title>
     <style>
@@ -70,8 +70,8 @@
       }
 
       @media (max-width: 399px) {
-        body{
-            padding: 15px 8px;
+        body {
+          padding: 15px 8px;
         }
 
         img {
@@ -86,31 +86,30 @@
   <body>
     <a class="back-btn" href="index ar.html">رجوع</a>
     <br /><br />
+    <!--  مو مطعم هندي -->
     <div style="margin: auto">
-      <img
-        style="width: 280px;"
-        src="ChatGPT Image Jul 25, 2025, 08_08_22 PM.png"
+      <a href="https://g57890.github.io/-/" target="_blank" style="text-decoration: none;">
+        <img
+        style="width: 280px"
+        src="images/ChatGPT Image Jul 25, 2025, 08_08_22 PM.png"
         alt="restaurant logo"
       />
       <br />
       <br />
+      
       <p style="width: fit-content; -webkit-text-stroke: #303841 0.6px">
         مو مطعم هندي
       </p>
+      </a>
+      
       <br /><br />
-      <a
-        style="margin: auto; border-radius: 20px; background-color: #e4e4e4; font-size: 30px; width: 42px;"
-        class="back-btn"
-        href="https://g57890.github.io/-/"
-        target="_blank"
-        >فتح</a
-      >
     </div>
     <br /><br />
     <!-- سنجاب -->
     <div style="margin: auto">
-      <img
-        style="width: 280px; background-color: #004c9b;"
+      <a href="https://g57890.github.io/senjap/" target="_blank" style="text-decoration: none;">
+         <img
+        style="width: 280px; background-color: #004c9b"
         src="SENJAP LOGO (2).png"
         alt="restaurant logo"
       />
@@ -119,47 +118,37 @@
       <p style="width: fit-content; -webkit-text-stroke: #303841 0.6px">
         سنجاب
       </p>
+      </a>
+     
       <br /><br />
-      <a
-        style="
-          margin: auto;
-          border-radius: 20px;
-          background-color: #e4e4e4;
-          font-size: 30px;
-          width: 42px;
-        "
-        class="back-btn"
-        href="https://g57890.github.io/senjap/"
-        target="_blank"
-        >فتح</a
-      >
     </div>
     <br /><br />
   </body>
   <script>
-  function fixArabicButtonText() {
-    document.querySelectorAll('.auto-center').forEach(btn => {
-      const text = btn.textContent.trim();
-      const span = document.createElement('span');
-      span.textContent = text;
-      span.style.visibility = 'hidden';
-      span.style.whiteSpace = 'nowrap';
-      btn.appendChild(span);
+    function fixArabicButtonText() {
+      document.querySelectorAll(".auto-center").forEach((btn) => {
+        const text = btn.textContent.trim();
+        const span = document.createElement("span");
+        span.textContent = text;
+        span.style.visibility = "hidden";
+        span.style.whiteSpace = "nowrap";
+        btn.appendChild(span);
 
-      const textHeight = span.offsetHeight;
-      btn.removeChild(span);
+        const textHeight = span.offsetHeight;
+        btn.removeChild(span);
 
-      const btnHeight = btn.offsetHeight;
-      const offset = (btnHeight - textHeight) / 2;
-      btn.style.paddingTop = offset + 'px';
-      btn.style.paddingBottom = offset + 'px';
-    });
-  }
+        const btnHeight = btn.offsetHeight;
+        const offset = (btnHeight - textHeight) / 2;
+        btn.style.paddingTop = offset + "px";
+        btn.style.paddingBottom = offset + "px";
+      });
+    }
 
-  // تأكد من استدعائها بعد تحميل الصفحة
-  window.addEventListener('load', fixArabicButtonText);
-  window.addEventListener('resize', fixArabicButtonText);
-</script>
+    // تأكد من استدعائها بعد تحميل الصفحة
+    window.addEventListener("load", fixArabicButtonText);
+    window.addEventListener("resize", fixArabicButtonText);
+  </script>
 </html>
+
 
 
